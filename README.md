@@ -19,13 +19,12 @@ Onde será necessário aplicar um filtro em uma lista de imoveis para obter os i
 	1. Apos ter baixado o projeto, abra um terminal de comando(ex: git bash)  no diretório do projeto.
 	2. Digite o comando "mvn clean package" e aguarde o fim da compilação.
 		
-## Configurações da API
+## Configurações da API - Propiedades da aplicacao
 
     1. Application.properties
 	
-    spring.profiles.active=dev
-    
-## Propiedades da aplicacao
+    spring.profiles.active=dev  
+	 
     grupozap.url-busca=http://grupozap-code-challenge.s3-website-us-east-1.amazonaws.com/sources/source-2.json
     grupozap.origin-allow=http://localhost:8080
     grupozap.minlon =-46.693419
