@@ -60,7 +60,7 @@ public class VivaRealServiceTest {
 		try {
 
 			realEstateAdService = new RealEstateAdService(listViva);
-
+			
 			vivaService = new VivaRealService(realEstateAdService, vivaRealConfig,grupoZapConfig);
 
 			List<RealEstateAd> list = vivaService.getListRealEstateAd(listViva);

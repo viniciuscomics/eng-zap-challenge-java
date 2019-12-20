@@ -20,7 +20,7 @@ public class RestZapController {
 	private ZapService zapService;	
 	
 	@GetMapping
-	public ResponseEntity<RealEstateAdWrapper> getRealEstateAdZap(@PageableDefault(page = 0) Pageable pageable){		
+	public ResponseEntity<RealEstateAdWrapper> getRealEstateAdZap(@PageableDefault(page = 0, size = 50)Pageable pageable){		
 		
 		RealEstateAdWrapper realEstateAdWrapper = null;
 		try {
