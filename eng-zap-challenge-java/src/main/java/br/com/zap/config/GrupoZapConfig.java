@@ -15,6 +15,7 @@ import lombok.Setter;
 public class GrupoZapConfig {
 
 	private String urlBusca;
+	private String originAllow;
 	private BigDecimal minlon;
 	private BigDecimal minlat;
 	private BigDecimal maxlon;
