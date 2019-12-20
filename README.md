@@ -57,7 +57,7 @@ Onde será necessário aplicar um filtro em uma lista de imoveis para obter os i
 
 	2. Na pasta target, copie o .jar da API para um local de sua escolha e abra o terminal de comando(ex: git bash)
 	
-	3. Digite o comando "java -jar o_jar_da_sua_api.jar"
+	3. Digite o comando "java -jar o_jar_da_sua_api.jar". Caso queira passar o um arquivo de propiedade customizado, basta rodar o              comando "java -jar o_jar_da_sua_api.jar -Dspring.config.location=your.properties"
 	
 	4. Aguarde o sua api inicializar, se tudo der certo as últimas mensagens impressas no console será;
 		
