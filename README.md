@@ -45,7 +45,7 @@ Onde será necessário aplicar um filtro em uma lista de imoveis para obter os i
 	2. Temos os parametros configuraveis para facilitar a troca de ambientes e parametros referentes a regra de negocio.
 	
 	#OBS
-	Temos o parametro "grupozap.origin-allow" para que possa ser passado a url de origem permitidae e a requisição não trave no cors.
+	Temos o parametro "grupozap.origin-allow" para que possa ser passado a url de origem permitida e a requisição não trave no cors.
 	
 ## Executando os testes unitários
 		1. Apos ter baixado o projeto, abra um terminal de comando(ex: git bash)  no diretório do projeto.
